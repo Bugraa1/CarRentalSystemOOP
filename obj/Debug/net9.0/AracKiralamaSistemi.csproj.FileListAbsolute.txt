@@ -1,0 +1,14 @@
+/Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/bin/Debug/net9.0/AracKiralamaSistemi
+/Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/bin/Debug/net9.0/AracKiralamaSistemi.deps.json
+/Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/bin/Debug/net9.0/AracKiralamaSistemi.runtimeconfig.json
+/Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/bin/Debug/net9.0/AracKiralamaSistemi.dll
+/Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/bin/Debug/net9.0/AracKiralamaSistemi.pdb
+/Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/obj/Debug/net9.0/AracKiralamaSistemi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/obj/Debug/net9.0/AracKiralamaSistemi.AssemblyInfoInputs.cache
+/Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/obj/Debug/net9.0/AracKiralamaSistemi.AssemblyInfo.cs
+/Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/obj/Debug/net9.0/AracKiralamaSistemi.csproj.CoreCompileInputs.cache
+/Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/obj/Debug/net9.0/AracKiralamaSistemi.dll
+/Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/obj/Debug/net9.0/refint/AracKiralamaSistemi.dll
+/Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/obj/Debug/net9.0/AracKiralamaSistemi.pdb
+/Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/obj/Debug/net9.0/AracKiralamaSistemi.genruntimeconfig.cache
+/Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/obj/Debug/net9.0/ref/AracKiralamaSistemi.dll
