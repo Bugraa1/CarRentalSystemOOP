@@ -26,7 +26,6 @@ namespace AracKiralamaSistemi
             Aktif = true;
             ToplamUcret = arac.UcretHesapla(kiralamaSuresi);
             
-            // Aracın kiralanabilir durumunu güncelle
             arac.Kiralanabilir = false;
         }
 
@@ -52,13 +51,13 @@ namespace AracKiralamaSistemi
           
             DateTime iadeTarihi = DateTime.Now;
             
-            // Eğer iade süresi aşılmışsa, ek ücret hesaplar
+          
             
             int gecikmeGunu = 0;
             if (iadeTarihi > BitisTarihi)
             {
                 gecikmeGunu = (int)(iadeTarihi - BitisTarihi).TotalDays;
-                // Gecikme günü başına 1.5 kat ücret
+                
                 decimal ekUcret = Arac.GunlukUcret * gecikmeGunu * 1.5m;
                 ToplamUcret += ekUcret;
             }

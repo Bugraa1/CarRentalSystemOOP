@@ -36,11 +36,6 @@ namespace AracKiralamaSistemi
         {
             var kiralama = _kiralamalar.FirstOrDefault(k => k.Arac.Plaka == plaka && k.Aktif);
             
-            if (kiralama == null)
-            {
-                return 0; // Kiralama bulunamadı
-            }
-
             return kiralama.AraciIadeEt();
         }
 
@@ -54,21 +49,8 @@ namespace AracKiralamaSistemi
             return _kiralamalar.Where(k => k.Aktif).ToList();
         }
 
-        public List<Kiralama> MusteriyeGoreKiralamalarGetir(int musteriId)
-        {
-            return _kiralamalar.Where(k => k.Musteri.Id == musteriId).ToList();
-        }
+        
 
-        public List<Kiralama> PlakayaGoreKiralamalarGetir(string plaka)
-        {
-            return _kiralamalar.Where(k => k.Arac.Plaka == plaka).ToList();
-        }
-
-        public List<Kiralama> TarihAraliginaGoreKiralamalarGetir(DateTime baslangic, DateTime bitis)
-        {
-            return _kiralamalar.Where(k => 
-                (k.BaslangicTarihi >= baslangic && k.BaslangicTarihi <= bitis) ||
-                (k.BitisTarihi >= baslangic && k.BitisTarihi <= bitis)).ToList();
-        }
+        
     }
 } 

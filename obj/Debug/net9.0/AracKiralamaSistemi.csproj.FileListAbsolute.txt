@@ -12,3 +12,4 @@
 /Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/obj/Debug/net9.0/AracKiralamaSistemi.pdb
 /Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/obj/Debug/net9.0/AracKiralamaSistemi.genruntimeconfig.cache
 /Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/obj/Debug/net9.0/ref/AracKiralamaSistemi.dll
+/Users/yusufbugra/Desktop/AracKiralamaSistemi/AracKiralamaSistemi/obj/Debug/net9.0/AracKiralamaSistemi.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AracKiralamaSistemi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eecdbd4508030add850ac19353c3b88200c42371")]
 [assembly: System.Reflection.AssemblyProductAttribute("AracKiralamaSistemi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AracKiralamaSistemi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -52,7 +52,7 @@ namespace AracKiralamaSistemi
         }
     }
 
-    // SUV sınıfı: Arac sınıfından türetilmiş
+    
     public class SUV : Arac
     {
         public bool AraziOzelligi { get; private set; }
