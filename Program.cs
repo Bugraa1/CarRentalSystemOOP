@@ -4,6 +4,7 @@ namespace AracKiralamaSistemi
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             AracYonetimi aracYonetimi = new AracYonetimi();
