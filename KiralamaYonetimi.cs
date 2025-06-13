@@ -1,14 +1,12 @@
-
-
 namespace AracKiralamaSistemi
 {
-    public class KiralamaYonetimi
+    public class KiralamaYonetimi : IKiralamaYonetimi
     {
         private List<Kiralama> _kiralamalar;
-        private AracYonetimi _aracYonetimi;
-        private MusteriYonetimi _musteriYonetimi;
+        private IAracYonetimi _aracYonetimi;
+        private IMusteriYonetimi _musteriYonetimi;
 
-        public KiralamaYonetimi(AracYonetimi aracYonetimi, MusteriYonetimi musteriYonetimi)
+        public KiralamaYonetimi(IAracYonetimi aracYonetimi, IMusteriYonetimi musteriYonetimi)
         {
             _kiralamalar = new List<Kiralama>();
             _aracYonetimi = aracYonetimi;
@@ -48,9 +46,5 @@ namespace AracKiralamaSistemi
         {
             return _kiralamalar.Where(k => k.Aktif).ToList();
         }
-
-        
-
-        
     }
-} 
+}

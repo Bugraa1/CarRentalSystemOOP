@@ -1,8 +1,6 @@
-
-
 namespace AracKiralamaSistemi
 {
-    public class AracYonetimi
+    public class AracYonetimi : IAracYonetimi
     {
         private List<Arac> _araclar;
 
@@ -42,4 +40,4 @@ namespace AracKiralamaSistemi
         }
         
     }
-} 
+}

@@ -338,7 +338,7 @@ namespace AracKiralamaSistemi
             }
         }
 
-        static void YeniKiralama(KiralamaYonetimi kiralamaYonetimi, AracYonetimi aracYonetimi, MusteriYonetimi musteriYonetimi)
+        static void YeniKiralama(IKiralamaYonetimi kiralamaYonetimi, IAracYonetimi aracYonetimi, IMusteriYonetimi musteriYonetimi)
         {
             Console.Clear();
             Console.WriteLine("=== YENİ KİRALAMA ===");
@@ -399,7 +399,7 @@ namespace AracKiralamaSistemi
             Console.ReadKey();
         }
 
-        static void KiralamalarıListele(KiralamaYonetimi kiralamaYonetimi)
+        static void KiralamalarıListele(IKiralamaYonetimi kiralamaYonetimi)
         {
             Console.Clear();
             Console.WriteLine("=== KİRALAMA LİSTESİ ===");
@@ -423,7 +423,7 @@ namespace AracKiralamaSistemi
             Console.ReadKey();
         }
 
-        static void AracIadeEt(KiralamaYonetimi kiralamaYonetimi)
+        static void AracIadeEt(IKiralamaYonetimi kiralamaYonetimi)
         {
             Console.Clear();
             Console.WriteLine("=== ARAÇ İADE ===");

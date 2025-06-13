@@ -1,9 +1,7 @@
-
-
 namespace AracKiralamaSistemi
 {
     
-    public abstract class Arac
+    public abstract class Arac : IArac
     {
         public string Plaka { get; private set; }
         public string Marka { get; private set; }
@@ -86,4 +84,4 @@ namespace AracKiralamaSistemi
         }
         
     }
-} 
+}

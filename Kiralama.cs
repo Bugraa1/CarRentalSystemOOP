@@ -1,8 +1,6 @@
-
-
 namespace AracKiralamaSistemi
 {
-    public class Kiralama
+    public class Kiralama : IKiralama
     {
         public int Id { get; private set; }
         public Arac Arac { get; private set; }
@@ -64,5 +62,9 @@ namespace AracKiralamaSistemi
 
             return ToplamUcret;
         }
+
+        // IKiralama interface'ini uygulayabilmek için gerekli dönüşüm özellikleri
+        IArac IKiralama.Arac => Arac;
+        IMusteri IKiralama.Musteri => Musteri;
     }
-} 
+}

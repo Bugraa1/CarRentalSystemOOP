@@ -1,8 +1,6 @@
-
-
 namespace AracKiralamaSistemi
 {
-    public class Musteri
+    public class Musteri : IMusteri
     {
         public int Id { get; private set; }
         public string Ad { get; private set; }
@@ -24,4 +22,4 @@ namespace AracKiralamaSistemi
             return $"ID: {Id}\nAd: {Ad}\nSoyad: {Soyad}\nTC Kimlik No: {TcKimlikNo}\nTelefon: {Telefon}";
         }
     }
-} 
+}

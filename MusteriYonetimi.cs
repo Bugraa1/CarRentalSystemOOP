@@ -1,8 +1,6 @@
-
-
 namespace AracKiralamaSistemi
 {
-    public class MusteriYonetimi
+    public class MusteriYonetimi : IMusteriYonetimi
     {
         private List<Musteri> _musteriler;
 
@@ -42,4 +40,4 @@ namespace AracKiralamaSistemi
         }
         
     }
-} 
+}
